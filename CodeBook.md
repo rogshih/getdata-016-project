@@ -6,10 +6,10 @@ Date: 12/20/2014
 The submitted dataset contains a independent tidy data set with the average of each measured variable (79) for each activity (6) and each subject (30). The data is in "long format", which results in 14,220 rows.
 
 Field label: subject.id
-Variable: ID reference for Subject of measurement
-Variable location: Column 1
-Variable type: integer
-Allowable values: 
+  Variable: ID reference for Subject of measurement
+  Variable location: Column 1
+  Variable type: integer
+  Allowable values: 
 - 1~30
 
 Field label: activity.name- 
