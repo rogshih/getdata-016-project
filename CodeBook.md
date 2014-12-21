@@ -3,19 +3,28 @@
 ## The following code book is for the data set submitted for "Getting and Cleaning Data" course project.
 
 Date: 12/20/2014
+
 The submitted dataset contains a independent tidy data set with the average of each measured variable (79) for each activity (6) and each subject (30). The data is in "long format", which results in 14,220 rows.
 
 Field label: subject.id
-  Variable: ID reference for Subject of measurement
-  Variable location: Column 1
-  Variable type: integer
-  Allowable values: 
+
+Variable: ID reference for Subject of measurement
+
+Variable location: Column 1
+
+Variable type: integer
+
+Allowable values: 
 - 1~30
 
-Field label: activity.name- 
+Field label: activity.name
+
 Variable: Activity name measured by the Subject
+
 Variable location: Column 2
+
 Variable type: Factor w/ 6 levels
+
 Allowable values:
 - WALKING
 - WALKING_UPSTAIRS
@@ -27,9 +36,13 @@ Allowable values:
 
 
 Field label: variable
+
 Variable: Individual features measured by the Subject
+
 Variable location: Column 3
+
 Variable type: Factor w/ 79 levels
+
 Allowable values:
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y
@@ -112,9 +125,13 @@ Allowable values:
 - fBodyBodyGyroJerkMag-meanFreq()
 
 Field label: variable.mean
+
 Variable: Average value of variable for each Activity and each Subject
+
 Variable location: Column 4
+
 Variable type: numeric
+
 Allowable values:
 - -1 ~ 1
 
