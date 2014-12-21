@@ -110,7 +110,7 @@ Allowable values:
 - fBodyBodyGyroJerkMag-mean()
 - fBodyBodyGyroJerkMag-std()
 - fBodyBodyGyroJerkMag-meanFreq()
-- 
+
 Field label: variable.mean
 Variable: Average value of variable for each Activity and each Subject
 Variable location: Column 4
