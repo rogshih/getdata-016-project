@@ -6,7 +6,7 @@ Date: 12/20/2014
 
 The submitted dataset contains a independent tidy data set with the average of each measured variable (79) for each activity (6) and each subject (30). The data is in "long format", which results in 14,220 rows.
 
-Field label: subject.id
+**Field label: subject.id**
 
 Variable: ID reference for Subject of measurement
 
@@ -17,7 +17,7 @@ Variable type: integer
 Allowable values: 
 - 1~30
 
-Field label: activity.name
+**Field label: activity.name**
 
 Variable: Activity name measured by the Subject
 
@@ -35,7 +35,7 @@ Allowable values:
 
 
 
-Field label: variable
+**Field label: variable**
 
 Variable: Individual features measured by the Subject
 
@@ -124,7 +124,7 @@ Allowable values:
 - fBodyBodyGyroJerkMag-std()
 - fBodyBodyGyroJerkMag-meanFreq()
 
-Field label: variable.mean
+**Field label: variable.mean**
 
 Variable: Average value of variable for each Activity and each Subject
 
